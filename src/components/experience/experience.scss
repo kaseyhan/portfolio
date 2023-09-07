@@ -1,0 +1,38 @@
+@import "../../utils/variables";
+
+.experienceSection {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.odd {
+    background-color: $green-light
+}
+
+.even {
+    background-color: white;
+}
+
+.experienceSectionContents {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    // text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    // margin-right: 20px;
+}
+
+.experienceText {
+    // display: inline-block;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+li {
+    padding: 10px;
+}
